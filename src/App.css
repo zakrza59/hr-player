@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Rambla:400,700');
+
+
+.Flex-box {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Rambla', sans-serif;
+}
+
+.Circle {
+  width: 36px;
+  height: 36px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

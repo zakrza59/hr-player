@@ -1,0 +1,32 @@
+.Song {
+  height: 79px;
+  width: 280px;
+  border-bottom: 1px solid #d3d5de;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Song:last-child {
+  border: none;
+}
+
+.Track > p {
+  margin: 0;
+}
+
+.Small {
+  font-size: 12px;
+  color: #78747f;
+}
+
+.Big {
+  font-size: 16px;
+  color: #2f1a4b;
+}
+
+.Social img {
+  margin-left: 12px;
+}
+
